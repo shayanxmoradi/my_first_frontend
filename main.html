@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        form input, form select, form textarea {
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>shayanXm HTML Page</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a web developer with a passion for creating beautiful and functional websites. Here's a little more
+        about me.</p>
+    <table>
+        <tr>
+            <th>Skill</th>
+            <th>Proficiency</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Expert</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Advanced</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Advanced</td>
+        </tr>
+    </table>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <p>Here are some of the projects I have worked on:</p>
+    <img src="https://via.placeholder.com/400x200" alt="Project 1">
+    <img src="https://via.placeholder.com/400x200" alt="Project 2">
+</section>
+<nav> <a href="https://chat.openai.com/" target="_blank">Chat with GPT</a></nav>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, please fill out the form below:</p>
+    <form action="/submit-form" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="password"> enter your password</label>
+        <input type="password" id ="password">
+
+        <label for="date"> select date</label>
+        <input type="date" id ="date">
+
+        <label for="number"> enter your age</label>
+        <input type="number" id ="number">
+        <label for="file"> chose a file</label>
+        <input type="file" id ="file">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="email">Email:</label>
+        <input type="" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+<progress></progress>
+<select><option>
+
+</option></select>
+
+<footer>
+    <p>&copy; 2024 shayanXm HTML Page</p>
+</footer>
+</body>
+</html>
